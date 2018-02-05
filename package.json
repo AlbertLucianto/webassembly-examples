@@ -1,0 +1,24 @@
+{
+  "name": "webassembly-examples",
+  "version": "1.0.0",
+  "description": "Code examples that accompany the MDN WebAssembly documentation — see https://developer.mozilla.org/en-US/docs/WebAssembly.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertLucianto/webassembly-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbertLucianto/webassembly-examples/issues"
+  },
+  "homepage": "https://github.com/AlbertLucianto/webassembly-examples#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
+}
